@@ -1,0 +1,261 @@
+
+body{
+    margin: 0;
+    padding:0;
+     background:FFFFE0;
+     color:white;
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:100%;
+    min-height:70vh;
+    box-sizing: border-box;
+    
+}
+header{
+    position: relative;
+      background-size: cover;
+    background-color: black;
+    height:500px;
+    width:100%;
+   background-image: url("backc.jpeg");
+    text-align: center;
+    background-position: center;
+}
+
+
+header h1{  
+   margin-top: auto; 
+   margin-left: 200px;
+    color: rgb(12, 11, 12);
+    
+}
+header a{
+    color: rgb(8, 8, 8);
+    text-decoration:none;
+    text-transform: uppercase;
+    margin-top:10px;
+}
+header .logo a{
+    position: relative;
+    background-image: url("SUI-DHAGA2.png");
+    background-size:100px;
+    display:inline-block;
+   height:100px;
+   width:200px;
+   top:-40px;
+    text-indent: -99999999px;
+    background-repeat: no-repeat;  
+    padding-right: 200px;
+    margin-right: 200px;
+    cursor: initial;
+}
+a:hover{
+  
+    text-decoration:underline;
+    text-decoration-color: WHITE;
+    
+}
+header ul{
+    margin-top:-20px;
+    padding:0;
+    list-style-type: none;
+   align-items: center;
+   justify-content: center;
+    display:inline-block;
+}
+
+header li{
+    display:inline-block;
+    margin: 20px;
+
+}
+
+
+header form{
+    margin-top:relative;
+    
+    position: absolute;
+  display:inline-block;
+  align-items:center;
+    justify-content:cente;
+ 
+}
+
+
+header h1{
+    position: relative;;
+    margin:-30px auto;
+    font-size:40px;
+    margin-right:auto;
+    align-self:center ;
+    color: rgb(10, 10, 10);
+}
+header h4{
+    position: relative;
+    font-size: 20px;
+    margin:30px;
+    align-self:center ;
+    color: rgb(49, 33, 48);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+h4{
+   text-align: center;
+    position: relative;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #383836;
+}
+section{
+    position: relative;
+   margin: 10px;
+    background-size: cover;
+    height:500px;
+    width:100%;
+    text-align: center;
+    background-position: center;
+    display: inline-block;
+}
+section h1{
+    position: relative;
+    text-align: center;
+    font-size:40px;
+    margin-right:auto;
+    align-self:center ;
+    color: rgb(56, 7, 45);
+}
+section h2{
+   
+    font-size:20px;
+    align-self:center ;
+    color: rgb(247, 241, 244);
+}
+  .boxcover{
+display: flex;
+margin: auto;
+
+}
+ .box{
+    width: 300px;
+    height:200px;
+flex:1;
+margin:20px;
+border:2px dashed white;
+
+}
+.box:nth-child(1){
+    background-image: URL("saari3.jpeg");
+}
+.box:nth-child(2){
+    background-image: URL("saari2.jpeg");
+}
+.box:nth-child(3){
+    background-image: URL("saari4.jpeg");
+}
+section ul{
+    text-align: center;
+    text-decoration: none;
+
+}
+
+ p{
+     font-size: 18px;
+     font-weight: 100;
+     font-style: oblique;
+     color: #000;
+   
+}
+.container h2 {
+	color: #333;
+	text-align: center;
+	text-transform: uppercase;
+    font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	position: relative;
+	margin: 30px 0 60px;
+}
+.container h2::after {
+	content: "";
+	width: 140px;
+	position: absolute;
+	margin: 0 auto;
+	height: 3px;
+	background: #db584e;
+	left: 0;
+	right: 0;
+	bottom: -10px;
+    opacity: .8;
+}
+.col-center {
+	margin: 0 auto;
+	float: none !important;
+}
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+.carousel-item {
+	color: #999;
+	font-size: 14px;
+    text-align: center;
+	overflow: hidden;
+    min-height: 290px;
+}
+.carousel .item .img-box {
+	width: 135px;
+	height: 135px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #ddd;
+	border-radius: 50%;
+}
+.carousel .img-box img {
+	width: 100%;
+	height: 100%;
+	display: block;
+	border-radius: 50%;
+}
+.carousel .testimonial {
+	padding: 30px 0 10px;
+}
+.carousel .overview {	
+	font-style: italic;
+}
+.carousel .overview b {
+	text-transform: uppercase;
+	color: #db584e;
+}
+.carousel .carousel-control {
+	width: 40px;
+    height: 40px;
+    margin-top: -20px;
+    top: 50%;
+	background: none;
+}
+.carousel-control i {
+    font-size: 68px;
+	line-height: 42px;
+    position: absolute;
+    display: inline-block;
+	color: rgba(0, 0, 0, 0.8);
+    text-shadow: 0 3px 3px #e6e6e6, 0 0 0 #000;
+}
+.carousel .carousel-indicators {
+	bottom: -40px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 1px 3px;
+	border-radius: 50%;
+}
+.carousel-indicators li {	
+	background: #999;
+	border-color: transparent;
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}
+.carousel-indicators li.active {	
+	background: #555;		
+	box-shadow: inset 0 2px 1px rgba(0,0,0,0.2);
+}

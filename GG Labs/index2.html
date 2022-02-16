@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sui-Dhaga</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <style media="screen">
+            .carousel-cell {
+              width:35%;
+              text-align: center;
+              }
+              .carousel-cell p{
+                  color: deeppink;
+                  font-weight: 400;
+                  font-size: larger;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              }
+          .w3-center{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color:deeppink;
+            font-weight: 300;
+          }
+              /* cell number */
+              .carousel-cell:before {
+                display: block;
+              }
+              .services,.process,.detail{
+                  align-items: center;
+                  text-align: center;
+                  display: block;
+width:100%;
+height:auto;
+background-color: rgb(245, 136, 194);
+margin:30px 0;
+padding: 20px;
+
+              }
+              .detail{
+                  background-color: rgb(240, 192, 214);
+              }
+              .details,.footer1{
+                  margin: 30px;
+                background-image: url("backa.jpeg");
+                background-repeat: no-repeat;
+                background-size: cover;
+                  padding: 20px;
+                  /* width:60%; */
+                  border-radius:4px;
+                  border:2px dashed white;
+
+              }
+              .details p{
+                  color:white;
+              }
+              .process{
+                  height:120vh;
+                  background-color: aliceblue;
+              }
+              .process h2{
+                  color: deeppink;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              }
+              
+              .services .inner-box{
+                display:flex;
+                align-items: center;
+                width:100%;
+                height:60%;
+                margin: 50px 0;
+
+              }
+              .services h2{
+                  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                  color: black;
+              }
+               .boxes{
+                border: 2px dashed ;
+                margin:0 5px;
+                padding: 10px;
+                  border-radius: 4px;
+                  border-color: rgb(255, 243, 250);
+                  
+              }
+              .boxes h5,h2{
+                  color:white;
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+              }
+              .outsec{
+                  align-items: left;
+                  position: absolute;
+                  text-align: center;
+                  border-radius:5px;
+                  background-image: url("back2.jpeg");
+                  height: 100%;
+                  margin-top: 50px;
+                 
+
+              }
+              .sec2{
+                  background-color: aliceblue;
+                  border-radius:5px;
+                  padding:5vh;
+                  width: 60%;
+                  margin-top: -20px;
+                  border-top: 2px solid deeppink;
+                  
+              }
+              .sec2 p,h2{
+                  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+              }
+              .sec2 h2{
+                  font-size: larger;
+                  color:deeppink;
+               
+
+              }
+              .footer1{
+                background-image: url("backb.jpeg");      
+                  border:2px;
+              }
+              .footer1 button{
+                  width:auto;
+              }
+
+            </style>
+          
+    </head>
+    <body>
+        <header class="container">
+            <div class="navbar">
+                <img src="SUI-DHAGA-logo.png" class="logo">
+                <nav>
+                    <ul id="menu-list">
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Custom-suits</a></li>
+                        <li><a href="about.html">About-us</a></li>
+                        <li><a href=""></a></li>
+                        
+                    </ul>
+                </nav>
+                <img src="icons8-menu-30.png" class="icon" onclick="toggle()">
+            </div>
+          
+            <div class="inner">
+                
+                    <h2>The perfectioner is here</h2>
+                    <h3><strong>SUI-DHAGA</strong></h3>
+                    <p>Nothing Speaks Pride better than a professionally fitted uniform</p>
+                    <button>Login</button>
+                
+               
+
+            </div>
+          
+        </header>
+        <section>
+            <h1 class="w3-center">Dresses we stitch</h1>
+            <div class="carousel" data-flickity='{ "wrapAround": true, "autoPlay": true, "imagesLoaded":true }'>
+              <div class="carousel-cell">
+                <img class="image" src="saari.png">
+                <p>Casual Wear saari</p>
+              </div>
+              <div class="carousel-cell">
+                <img class="image" src="saari2.jpeg">
+                <p>Wedding-purpose Saaris</p>
+              </div>
+              <div class="carousel-cell">
+                <img class="image" src="model3.jpeg">
+                <p>3-Piece Suit</p>
+              </div>
+              <div class="carousel-cell">
+                <img class="image" src="saari3.jpeg">
+                <p>Ethenic-Suits</p>
+              </div>
+              <div class="carousel-cell">
+                <img class="image" src="lehanga.jpeg">
+                <p>Indian-Lehanga</p>
+              </div>
+
+              <div class="carousel-cell">
+                <img class="image" src="model1.jpeg">
+                <p>3-Piece Suit</p>
+              </div>
+              
+            </div>
+        
+        
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+        </section>
+          
+        <section class="services">
+            <h2>Services we provide</h2>
+            <div class="inner-box">
+                
+                <div class="boxes">
+                    <h5>Get your Fabric Stitched</h5>
+                <p>That beautiful georgette, 
+                    velvet or silk fabric you bought on your recent shopping 
+                    spree, we can make the perfect outfit for you</p>
+                </div>
+                    <div class="boxes">
+                        <h5>Revamp Your Wardrobe</h5>
+                        <p>Want to create something out of your old sarees 
+                            that are lying unused in your wardrobe? We can turn those 
+                            into even more beautiful dresses for you.</p>
+                    </div>
+                            <div class="boxes">
+                                <h5>Recreate Same Outfit for You</h5>
+                                <p>Want an outfit that you saw on the internet or your 
+                                    friend wore? Well, we can stitch the exact thing for you
+                                     and customize it to your fit, patterns & colour preferences.</p>
+                            </div>
+                                     <div class="boxes">
+                                        <h5>     Design a New Look</h5>
+                                        <p>Confused about what to wear for the next big event? Connect with our 
+                                            designers & watch them create something magical by just sitting in the 
+                                            comforts of your home.</p>
+                                        
+                                     </div>
+                                
+            </div>
+           
+        </section>
+        <section class="process">
+           <h2>How Does Tailor Junction Work?</h2> 
+           <div class="outsec">
+            <div class="sec2">
+                <img src="appointment.png">
+                <h2><strong>Appointment</strong></h2>
+                <p>Once you book the appointment, our representative will call you and a time will be scheduled for the pickup, then tailor will take measurements and pick your fabric.</p>
+            </div>
+            <div class="sec2">
+                <img src="sewing.png">
+                <h2><strong>Stitch</strong></h2>
+                <p>
+                    Outfit will be stitched under experts guidance.</p>
+            </div>
+            <div class="sec2">
+                <img src="delivery-truck.png">
+                <h2><strong>Delivery</strong></h2>
+                <p>After stitching the outfit will be delivered at your place, and if there will be any alteration required, the tailor will redo again and redeliver it at your place.</p>
+            </div>
+        </div>
+        </section>
+        <section class="detail">
+            <div class="details">
+                <div class="d1">
+                    <h2> I Used To Look For The Best Tailors Near Me</h2>
+                    <p>           
+            The start of this business, had a purpose , not only making money but covering the pain areas, we all face.In today’s busy schedule, everyone loves spending time with the family. Office late-comings make us tired & other responsibilities at home bring the need of the best tailor near me thinking . Would you mind going to Nariman Point or Sector 62 Noida for the best tailor, of course not. Here at Tailor Junction, you have all the choices of availing the best tailor at doorstep without paying a single penny. A completely hassle free mindset as if there is the best tailor near me , really.
+            
+             </p>  
+                </div>
+                <div class="d1">
+                    <h2>Hire An Online Tailor & Style According To You!</h2>
+                    <p>           
+                      
+                        Ladies tailor or Mens tailor -A certain answer to a very simple question for what tailoring online is; will be like stitching together few fabrics to make them wearable & that to with online ease today.. But that is no so and not at all accurate. Tailoring is not just meant with stitching and sewing few fabrics together but it is an art. The art which can make a simple fabric turn into something very special and that too, according to your choice and style. Tailored stuff offers a classic look whether for men or women. It gives a sense of sophistication. Thats why Ladies Tailor or Mens Tailor, all are in high demand these days & the option of hiring online tailor is something to be researched with passion.
+                        
+                        
+                        
+                        
+            
+             </p>  
+                </div>
+                <div class="d1">
+                    <h2> Tailor At Doorstep Is Something New & Easy.</h2>
+                    <p>           
+                       
+                        What else is needed when whatever you seek is available at affordable rates, simple and risk free payment and delivery aspect? Here we are working hard over months to create a varied selection of suits for customers. We deliver your design providing you with maximum level of comfort and confidence in every suit. There is a very simple process to order your stuff & avail the best tailor at doorstep, isn’t it amazing, share your thoughts on our Facebook Page here or email us with your feedback.
+                    
+             </p>  
+                </div>
+                <div class="d1">
+                    <h2>Designer Boutique In Gurgaon</h2>
+                    <p>           
+                        
+                        We have given years to this one & only designer boutique in Gurgaon. It started with the Phusical Outlet at Gurgaon & Now you can hire a tailor at doorstep from almost all locations of India by simply going through the website & calling us.Our case studies have earned us the reputation of being the best designer boutique in Gurgaon, Delhi, Faridabad, Ghaziabad & Noida locations.
+             </p>  
+                </div>
+    
+            </div>
+        </section>
+        
+      <div class="footer1">
+          <h1>YOU DESIGN, WE DELIVER</h1>
+          <h2>Providing you with a maximum level of comfort & confidence in every suit!</h2>
+          <button>Book an Appointment</button>
+      </div>
+        
+<section class="testimonial">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+                <div class="sec-heading text-center">
+                    <h6>" Client's Says "</h6>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="clients-carousel owl-carousel">
+                <div class="single-box">
+                    <div class="img-area"><img alt="" class="img-fluid" src="https://images.pexels.com/photos/3525908/pexels-photo-3525908.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></div>
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+                        <h4>Jason Doe</h4>
+                        <h6>Designation Here</h6>
+                    </div>
+                </div>
+                <div class="single-box">
+                    <div class="img-area"><img alt="" class="img-fluid" src="https://images.pexels.com/photos/5042302/pexels-photo-5042302.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></div>
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+                        <h4>Dave Wood</h4>
+                        <h6>Designation Here</h6>
+                    </div>
+                </div>
+                <div class="single-box">
+                    <div class="img-area"><img alt="" class="img-fluid" src="https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></div>
+                    <div class="content">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+                        <h4>Matt Demon</h4>
+                        <h6>Designation Here</h6>
+                    </div>
+                </div>
+                <div class="single-box">
+                    <div class="img-area"><img alt="" class="img-fluid" src="https://images.pexels.com/photos/1270076/pexels-photo-1270076.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"></div>
+                    <div class="content">
+                        <span class="rating-star"><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i><i class="icofont-star"></i></span>
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, doloribus minima praesentium laborum ea earum."</p>
+                        <h4>jimmy kimmel</h4>
+                        <h6>Designation Here</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <footer class="down">
+        <div class="users">
+            <h4> Let's Put in Work Together!</h4>
+            <h3>YOUR PERSONAL TAILOR</h3>
+            <img src="backc.jpeg" alt="image"/>
+            <p>
+               
+    As your local personal tailor, I specialize in tailoring your clothes to your needs!
+    
+    <u>(262)-271-6020</u>
+            </p>
+            <a href="contact.html">Contact Me</a>
+        </div>
+        <div class="end"> <h4>JBRECHLIN@PUTINWORKNV.COM   |   CALL ME: (262)-271-6020   |   COPYRIGHT © 2021 IN WORK LL- ALL RIGHTS RESERVED </h3></div>
+    </footer>
+            
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+</script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js">
+</script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js">
+</script> 
+<script>
+       $('.clients-carousel').owlCarousel({
+           loop: true,
+           nav: false,
+           autoplay: true,
+           autoplayTimeout: 5000,
+           animateOut: 'fadeOut',
+           animateIn: 'fadeIn',
+           smartSpeed: 450,
+           margin: 30,
+           responsive: {
+               0: {
+                   items: 1
+               },
+               768: {
+                   items: 2
+               },
+               991: {
+                   items: 2
+               },
+               1200: {
+                   items: 2
+               },
+               1920: {
+                   items: 2
+               }
+           }
+       });
+</script>
+      
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+</section>
+
+<script>
+var menulist=document.getElementById("menu-list");
+menulist.style.maxHeight="0px";
+function toggle(){
+  if(menulist.style.maxHeight=="0px")
+  {
+      menulist.style.maxHeight="130px";
+  }else{menulist.style.maxHeight="0px";}
+}
+
+</script>  
+    </body>
+</html>

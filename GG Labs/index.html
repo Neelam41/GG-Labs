@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sui-Dhaga</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="SUI-DHAGA-logo.png" class="logo">
+                <nav>
+                    <ul id="menu-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Custom-suits</a></li>
+                        <li><a href="">About-us</a></li>
+                        <li><a href=""></a></li>
+                        
+                    </ul>
+                </nav>
+                <img src="icons8-menu-30.png" class="icon" onclick="toggle()">
+            </div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>The perfectioner is here</h2>
+                    <h3><strong>SUI-DHAGA</strong></h3>
+                    <p>Nothing Speaks Pride better than a professionally fitted uniform</p>
+                    <button>Login</button>
+                </div>
+                <div class="col-2">
+                    <img src="model1.jpeg" class="model">
+                    <div class="colorbox"></div>
+                    <!-- <div class="add-btn"></div>
+                     -->
+                </div>
+                
+            </div>
+            <div class="social-links">
+                <img src="">
+                <img src="">
+                <img src="">
+                
+            </div>
+        </div>
+        <script>
+            var menulist=document.getElementById("menu-list");
+            menulist.style.maxHeight="0px";
+            function toggle(){
+                if(menulist.style.maxHeight=="0px")
+                {
+                    menulist.style.maxHeight="130px";
+                }else{menulist.style.maxHeight="0px";}
+            }
+
+        </script>    
+      
+    </body>
+</html>
