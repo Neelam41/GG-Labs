@@ -1,4 +1,4 @@
-# GG-Labs
+# Sui-Dhaga
 ![Screenshot 2022-02-16 at 23 45 17](https://user-images.githubusercontent.com/68947690/154331087-d67822f7-8230-400e-b658-c48505266f27.png)
 ![Screenshot 2022-02-16 at 23 45 06](https://user-images.githubusercontent.com/68947690/154331168-15073149-4857-46e0-982c-e08177cc3253.png)
 ![Screenshot 2022-02-16 at 23 45 34](https://user-images.githubusercontent.com/68947690/154331201-683c696e-a886-46c7-ac68-9030d79e4cc8.png)
